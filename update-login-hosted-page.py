@@ -39,6 +39,7 @@ try:
 
     globalClient = None
 
+    # find the global client
     for client in clients:
         if client["global"] == True:
             globalClient = client
